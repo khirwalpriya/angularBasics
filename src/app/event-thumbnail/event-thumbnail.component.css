@@ -1,0 +1,28 @@
+.padleft
+{
+    margin-left: 10px;
+}
+.well div 
+{
+    color: black;
+   
+}
+.thumbnail
+{
+    min-height: 250px;
+}
+.green
+{
+    color: green !important;
+}
+.blue
+{
+    color: blue;
+}
+.red
+{
+    color: red;
+    font-variant: bold;
+}
+/* 
+*/
