@@ -12,7 +12,8 @@
 
                 <div class="form-group" [ngClass]="{'error': !validateLastName()}">
                     <label for ="lastName">Last Name</label>
-                    <em *ngIf="!validateLastName()">Required</em>
+                    <em *ngIf="firstName.error.required">Required</em>
+                    <em *ngIf="firstName.error.pattern">Should start with a digit</em>
                     <input id="lastName" type="text" formControlName="lastName" class="form-control" placeholder="last Name..">
                 </div>
                 <button type ="submit" class="btn btn-primary" >Save</button>

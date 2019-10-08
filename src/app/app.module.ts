@@ -10,6 +10,8 @@ import { RouterModule } from '@angular/router';
 import { appRoutes } from './routes';
 import { CreateEventsComponent } from './create-events/create-events.component';
 import { C404Component } from './error/c404/c404.component';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { CreateSessionComponent } from './event-details/create-session/create-session.component';
 
 @NgModule({
   declarations: [
@@ -19,11 +21,14 @@ import { C404Component } from './error/c404/c404.component';
     NavBarComponent,
     EventDetailsComponent,
     CreateEventsComponent,
-    C404Component
+    C404Component,
+    CreateSessionComponent
   ],
   imports: [
     BrowserModule,
     CommonModule, 
+    FormsModule,
+    ReactiveFormsModule,
     RouterModule.forRoot(appRoutes)
   ],
   providers: [
