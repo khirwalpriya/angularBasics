@@ -11,13 +11,17 @@ import { IUser } from './user.model';
         this.currentUser =
         {
             id: 1,
-            firstname:'john',
+            firstName:'john',
             lastName:'papa',
             userName:'userName'
     }
       }
       isAuthenticated(){
-          console.log(this.currentUser);
           return !!this.currentUser;
+      }
+      updateCurrentUser(firstName : string, lastName: string)
+      {
+        this.currentUser.firstName=firstName;
+        this.currentUser.lastName=lastName;
       }
     }

@@ -26,7 +26,7 @@
             "styles": [
               "src/styles.css",
               // "../node_modules/bootstrap/dist/css/bootstrap.min.css"
-              "C:/projects/angular/angular-basics/node_modules/bootstrap/dist/css/bootstrap.min.css"
+              // "C:/projects/angular/angular-basics/node_modules/bootstrap/dist/css/bootstrap.min.css"
             ],
             "scripts": []
           },
@@ -93,7 +93,7 @@
             "styles": [
               "src/styles.css",
               // "../node_modules/bootstrap/dist/css/bootstrap.min.css"
-              "C:/projects/angular/angular-basics/node_modules/bootstrap/dist/css/bootstrap.min.css"
+              // "C:/projects/angular/angular-basics/node_modules/bootstrap/dist/css/bootstrap.min.css"
             ],
             "scripts": []
           }
