@@ -5,6 +5,7 @@ import { CreateEventsComponent } from './create-events/create-events.component';
 import { C404Component } from './error/c404/c404.component';
 import { EventGuard } from './event-details/event.guard';
 import { EventListResolver } from './shared/event-list-resolver.service';
+import { CreateSessionComponent } from './event-details/create-session/create-session.component';
 export const appRoutes : Routes=[
   {  path: 'events',
     component: EventsListComponent,
@@ -13,6 +14,10 @@ export const appRoutes : Routes=[
 {  path: 'events/new',
     component: CreateEventsComponent,
     canDeactivate: ['canDeativateCreateEvent']
+},
+{
+    path: 'events/sessions/new',
+    component:CreateSessionComponent
 },
 {  path: '404',
     component: C404Component
